@@ -1,0 +1,19 @@
+[app] (name=Devtools) (class=Firefox-esr) (role=toolbox)
+  [Dimensions]	{66% 100%}
+  [Position]	(UPPERLEFT)	{0% 0%}
+  [Close]	{yes}
+[end]
+[app] (name=xlunch)
+  [Deco]	{NONE}
+[end]
+[app] (name=konsole) (class=konsole) (role=MainWindow#1)
+  [Workspace]	{0}
+  [Dimensions]	{100% 100%}
+  [Position]	(UPPERLEFT)	{0% 2%}
+  [Jump]	{yes}
+  [Close]	{yes}
+[end]
+[app] (name=skype) (class=Skype) (role=browser-window)
+  [Dimensions]	{100% 100%}
+  [Position]	(UPPERLEFT)	{2% 2%}
+[end]

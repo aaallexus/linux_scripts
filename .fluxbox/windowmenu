@@ -1,0 +1,25 @@
+[begin]
+  [submenu] (Впорядкувати вікна  ...)
+    [MacroCmd {ResizeTo 100%  80%}   {MoveTo 00 00 UpperLeft}] (100% 80% Up        Ctrl+1)
+    [maximize](Maximize                Ctrl+2)
+    [MacroCmd {ResizeTo 100%  22%}   {MoveTo 00 00 LowerLeft}] (100% 22% Down    Ctrl+3)
+    [MacroCmd {ResizeTo 50%  100%}   {MoveTo 00 00 UpperLeft}] (100% 25% Left       Ctrl+4)
+    [MacroCmd {ResizeTo 50%  100%}   {MoveTo 00 00 UpperRight}] (100% 25% Right     Ctrl+5)
+    [MacroCmd {ResizeTo 1024  768}   {MoveTo 00 00 Center}] (1024 768 Center    Ctrl+6)
+    [MacroCmd {ResizeTo 1280 1024}   {MoveTo 00 00 Center}] (1280 1024)
+    [MacroCmd {ResizeTo 1920 1080}   {MoveTo 00 00 Center}] (1920 1080)
+  [end]
+  [shade]
+  [stick]
+  [maximize]
+  [iconify]
+  [raise]
+  [lower]
+  [settitledialog]
+  [sendto]
+  [layer]
+  [alpha]
+  [extramenus]
+  [separator]
+  [close]
+[end]

@@ -1,0 +1,41 @@
+[begin] (Desktop menu)
+
+  [exec] (konsole)              {konsole}  </usr/share/xlunch/svgicons//utilities-terminal.png>
+  [exec] (MSSQL)                {rdesktop 192.168.1.22 -g 1365x750 -D -K -r clipboard:PRIMARYCLIPBOARD -u alexei -p Xt,ehfnjh & sleep 5 && wmctrl -r rdesktop - 192.168.1.22 -T MSSQL} </usr/share/icons/HighContrast/48x48/apps/deja-dup.png>
+  [exec] (VirtualBox)           {VirtualBox}
+  [exec] (Firefox)              {firefox} </usr/share/icons/HighContrast/48x48/apps/firefox.png>
+  [exec] (Chrome)               {google-chrome} </usr/share/icons/HighContrast/48x48/apps/brasero.png>
+  [exec] (Youtube Music)        {google-chrome -app=https://music.youtube.com} </usr/share/icons/HighContrast/32x32/emblems/emblem-music.png>
+  [exec] (SetResolution1920)    {xrandr --output VGA-0 --mode 1920x1080} </usr/share/icons/HighContrast/48x48/devices/computer.png>
+  [exec] (SetResolution1024)    {xrandr --output VGA-0 --mode 1024x768}  </usr/share/icons/HighContrast/48x48/devices/computer.png>
+  [exec] (SetResolution640)     {xrandr --output VGA-0 --mode 640x480}   </usr/share/icons/HighContrast/48x48/devices/computer.png>
+  [submenu] (Program  ...) </usr/share/icons/HighContrast/16x16/places/folder.png>
+    [exec]  (Calc)        {kcalc} </usr/share/icons/HighContrast/32x32/apps/accessories-calculator.png>
+    [exec]  (PCman)     {pcmanfm} </usr/share/icons/oxygen/base/8x8/apps/system-file-manager.png> 
+    [exec]  (thunderbird) {thunderbird} </usr/share/thunderbird/chrome/icons/default/default16.png>
+    [exec]  (skype)       {skypeforlinux}
+    [exec]  (viber)      {/opt/viber/Viber} </opt/viber/icons/32x32.png>
+    [exec]  (telegram)      {/usr/bin/Telegram} </usr/share/icons/telegram.png>
+  [end]
+  [submenu] (Tools  ...) </usr/share/icons/HighContrast/16x16/places/folder.png>
+    [exec]  (KRDC) {krdc}
+    [exec]  (winbox) {wine ~/bin/winbox/winbox64.exe}
+    [exec]  (Sublime) {"/opt/sublime_text/sublime_text"}
+    [exec]  (FortiVpnClient) {"/usr/bin/forticlient"}
+
+  [end]
+  [submenu] (Styles  ...) {Choose a style...} </usr/share/icons/HighContrast/16x16/places/folder.png>
+    [stylesdir] (/usr/share/fluxbox/styles)
+    [stylesdir] (~/.fluxbox/styles)
+  [end]
+
+  [workspaces] (Workspace List  ...) </usr/share/icons/HighContrast/16x16/places/folder.png>
+  [config] (Configuration) </usr/share/icons/HighContrast/48x48/emblems/emblem-system.png>
+
+  [restart] (Restart)  </usr/share/icons/HighContrast/48x48/actions/view-refresh.png>
+  [submenu] (Others  ...)       {Other Window Managers}  </usr/share/icons/HighContrast/48x48/status/image-loading.png>
+    [restart] (Start KDE)       {startkde}
+    [restart] (Start FVWM)      {fvwm2}
+    [exit] (exit)
+  [end]
+[end]
